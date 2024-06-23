@@ -1,0 +1,34 @@
+{
+  "name": "qiai",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Ask unix commands",
+  "main": "index.js",
+  "bin": {
+    "qiai": "bin/qiai"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riparuk/qiai.git"
+  },
+  "keywords": [
+    "Ask",
+    "Unix",
+    "Commands",
+    "LLM"
+  ],
+  "author": "Rifa Faruqi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/riparuk/qiai/issues"
+  },
+  "homepage": "https://github.com/riparuk/qiai#readme",
+  "dependencies": {
+    "cli-table3": "^0.6.5",
+    "openai": "^4.52.0"
+  }
+}

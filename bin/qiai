@@ -1,0 +1,4 @@
+#!/usr/bin/env node
+
+// Ganti dengan jalur yang sesuai ke skrip utama Anda
+import '../index.js';
