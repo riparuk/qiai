@@ -51,7 +51,7 @@ async function argsSetup() {
     }
   }
 
-  // if --set-api-key called
+  // if --set-openai-api-key called
   if (args.includes('--set-openai-api-key')) {
     const apiKeyIndex = args.indexOf('--set-openai-api-key') + 1;
     if (apiKeyIndex < args.length) {
@@ -79,7 +79,7 @@ async function argsSetup() {
   // If no using any option are provided, display documentation
   console.log("Usage:");
   console.log("  qiai -q 'your question'")
-  console.log("  qiai --set-api-key your-api-value ");
+  console.log("  qiai --set-openai-api-key your-api-value ");
   process.exit(0); // Exit gracefully after displaying documentation
   
 }
