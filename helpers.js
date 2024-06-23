@@ -6,7 +6,8 @@ export function displayTableSteps(dataObject) {
 
   // Validate the data
   if (!steps || !Array.isArray(steps) || steps.length === 0) {
-    console.log('Invalid steps object. Must provide a valid array of steps.');
+    // console.log('Invalid steps object. Must provide a valid array of steps.');
+    console.log("Invalid");
     return;
   }
 

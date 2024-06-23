@@ -21,7 +21,7 @@ const openai = new OpenAI({
 async function argsSetup() {
   // get arguments 
   const args = process.argv.slice(2);
-  console.log("agrs : ", args);
+  // console.log(args)
 
   if (args.length === 0) {
     // If no arguments are provided, display documentation
@@ -49,7 +49,7 @@ async function argsSetup() {
       const assistant = new CLIAssistant(openai, os_information);
 
       const response = await assistant.getCommands(query);
-      console.log(response)
+      // console.log(response)
       displayTableSteps(response);
 
       process.exit(0);
