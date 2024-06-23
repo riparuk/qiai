@@ -23,14 +23,6 @@ async function argsSetup() {
   const args = process.argv.slice(2);
   // console.log(args)
 
-  if (args.length === 0) {
-    // If no arguments are provided, display documentation
-    console.log("Usage:");
-    console.log("  qiai 'your question'")
-    console.log("  qiai --set-api-key your-api-value ");
-    process.exit(0); // Exit gracefully after displaying documentation
-  }
-
   // Resolve the path to config.json relative to the current module file
   const __filename = fileURLToPath(import.meta.url);
   const __dirname = path.dirname(__filename);
@@ -83,6 +75,13 @@ async function argsSetup() {
       process.exit(1);
     }
   }
+
+  // If no using any option are provided, display documentation
+  console.log("Usage:");
+  console.log("  qiai -q 'your question'")
+  console.log("  qiai --set-api-key your-api-value ");
+  process.exit(0); // Exit gracefully after displaying documentation
+  
 }
 
 
