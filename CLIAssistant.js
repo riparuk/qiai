@@ -31,7 +31,7 @@ export default class CLIAssistant {
   // Constructing the completion object
   const completion = {
     messages: messages,
-    model: "gpt-3.5-turbo",
+    model: "gpt-4o-mini",
     response_format: { type: "json_object" },
     max_tokens: 256,
   };

@@ -17,3 +17,6 @@ QIAI (Quick Assistant) is a program built with JavaScript and integrated with GP
    ```bash
    npm install -g qiai
    ```
+
+## Todo 
+- [ ] Support Gemini API
