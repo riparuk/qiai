@@ -1,0 +1,5 @@
+{
+  "openaiApiKey": "AIzaSyDzBTkTl5hg3DL_WzlCXFZ0WWP-T3p6H0o",
+  "geminiApiKey": "AIzaSyDzBTkTl5hg3DL_WzlCXFZ0WWP-T3p6H0o",
+  "defaultProvider": "gemini"
+}
