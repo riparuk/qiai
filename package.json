@@ -28,7 +28,8 @@
   },
   "homepage": "https://github.com/riparuk/qiai#readme",
   "dependencies": {
+    "@google/generative-ai": "^0.24.1",
     "cli-table3": "^0.6.5",
-    "openai": "^4.52.0"
+    "openai": "^4.104.0"
   }
 }
