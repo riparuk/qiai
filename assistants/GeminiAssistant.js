@@ -7,7 +7,7 @@ export default class GeminiAssistant {
   constructor(gemini, os_information) {
     this.gemini = gemini;
     this.os_information = os_information;
-    this.model = this.gemini.getGenerativeModel({ model: "models/gemini-1.5-flash" });
+    this.model = this.gemini.getGenerativeModel({ model: "models/gemini-2.5-flash-lite-preview-06-17" });
     
     this.assistant_instruction = `You are a command-line assistant that only responds with terminal commands in JSON format. You help users run commands based on their operating system: ${os_information}.
 
