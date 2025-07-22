@@ -1,6 +1,6 @@
 {
   "name": "qiai",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "type": "module",
   "description": "Ask unix commands",
   "main": "index.js",
